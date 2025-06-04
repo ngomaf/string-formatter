@@ -9,7 +9,7 @@ This component have two features:
 Necessary PHP 8.0 or more (Necessário PHP 8.0 ou superior)
 
 ## Install
-Text
+composer require ngomafortuna/string-formatter
 
 ## Syntax and mode of use
 ```php
@@ -24,8 +24,6 @@ $formatter->cat('Phrase to test features');
 ```php
 use Ngomafortuna\StringFormatter\StringFormatter;
 
-require_once dirname(__FILE__, 2) . "/vendor/autoload.php";
-
 $title = "O caminho da     canção asul---a-----f";
 $phrase = "Text formatter to cat end create slug with base in a phrase.";
 
@@ -34,4 +32,10 @@ $formatter = new StringFormatter;
 
 var_dump($formatter->slug($title));
 var_dump($formatter->cat($phrase, 20));
+```
+
+Result
+```shell
+"o-caminho-da-cancao-asul-a-f"
+"Text formatter to ..."
 ```

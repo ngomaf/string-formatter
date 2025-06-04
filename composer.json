@@ -1,0 +1,21 @@
+{
+    "name": "ngomafortuna/string-formatter",
+    "description": "Simple string formatter (Formadador de texto simples)",
+    "type": "library",
+    "license": "BSD-3",
+    "autoload": {
+        "psr-4": {
+            "Ngomafortuna\\StringFormatter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ngoma M. Fortuna",
+            "email": "ngomafortuna@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    }
+}

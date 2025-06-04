@@ -2,7 +2,7 @@
     "name": "ngomafortuna/string-formatter",
     "description": "Simple string formatter (Formadador de texto simples)",
     "type": "library",
-    "license": "BSD-3",
+    "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
             "Ngomafortuna\\StringFormatter\\": "src/"
